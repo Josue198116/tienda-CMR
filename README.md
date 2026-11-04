@@ -64,7 +64,4 @@ Para reiniciar: `DROP DATABASE tienda;` y recarga la página.
 
 Todas las consultas usan sentencias preparadas (PDO). Errores en JSON con código HTTP adecuado (400, 404, 409, 500).
 
-## Notas
-- Login: usuario `manager` / contraseña `admin123` (también `vendedor2`…`vendedor100` con la misma contraseña). La API exige sesión.
-- La base de datos se llama `tienda_crm` (cámbiala en `server/config.php`).
-- El Laboratorio SQL ejecuta solo consultas predefinidas (no acepta SQL libre) para evitar inyección.
+
