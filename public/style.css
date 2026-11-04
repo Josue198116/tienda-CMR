@@ -1,0 +1,34 @@
+:root{--bs-primary:#1d5fd8;--bs-primary-rgb:29,95,216;--side:#0a2a66;--bg:#f3f7fd;--line:#dde7f5;--ink:#0b2447}
+body{background:var(--bg);color:var(--ink);display:flex;min-height:100vh;font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+.btn-primary{--bs-btn-bg:#1d5fd8;--bs-btn-border-color:#1d5fd8;--bs-btn-hover-bg:#164cb0;--bs-btn-hover-border-color:#164cb0}
+#side{width:230px;background:var(--side);color:#cfe0ff;padding:22px 14px;flex-direction:column;flex-shrink:0;position:sticky;top:0;height:100vh}
+.brand{font-weight:800;font-size:19px;color:#fff;padding:0 10px 18px}.brand i{color:#5b9bff;margin-right:6px}.brand span{color:#8fb8ff;font-weight:500}
+#nav a{display:flex;gap:10px;align-items:center;padding:10px;border-radius:10px;color:inherit;text-decoration:none;font-size:14px;margin-bottom:3px}
+#nav a:hover{background:rgba(255,255,255,.08)}#nav a.on{background:#1d5fd8;color:#fff}
+.ok{margin-top:auto;font-size:12px;padding:0 10px}.ok i{color:#34d399;font-size:8px;margin-right:6px}
+main{flex:1;min-width:0;padding:26px 32px}
+.avatar{display:inline-flex;width:38px;height:38px;border-radius:50%;background:#e8f0fe;color:#1d5fd8;align-items:center;justify-content:center;font-weight:700;margin-right:10px}
+.user{display:flex;align-items:center;font-size:13px}
+.cardx{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px}
+.kpi{display:flex;justify-content:space-between;align-items:flex-start}.kpi small{color:#5d7391}.kpi b{display:block;font-size:28px;margin-top:6px}
+.kpi .ic{width:38px;height:38px;border-radius:10px;background:#e8f0fe;color:#1d5fd8;display:flex;align-items:center;justify-content:center;font-size:18px}
+.kpi.warn .ic{background:#fdf0e2;color:#d9822b}
+.table{--bs-table-bg:transparent;font-size:14px}.table thead th{color:#5d7391;font-weight:600;font-size:12px;border-bottom-color:var(--line)}
+.chartbox{position:relative;height:280px}
+pre.sql{background:#0a2a66;color:#cfe0ff;border-radius:10px;padding:14px;font-size:13px;white-space:pre-wrap}
+#toast{position:fixed;right:20px;bottom:20px;z-index:2000}
+#toast div{background:#0a2a66;color:#fff;padding:10px 16px;border-radius:10px;margin-top:8px;font-size:14px}#toast div.err{background:#b42318}
+
+/* Franja lateral morada clara */
+#side{background:#ece6fb;color:#4a3b78}
+.brand{color:#3b2a73}.brand i,.brand span{color:#7c5cd6}
+#nav a:hover{background:rgba(124,92,214,.12)}
+#nav a.on{background:#7c5cd6;color:#fff}
+.ok i{color:#16a34a}
+
+/* Login */
+#login{display:none;flex:1;align-items:center;justify-content:center;padding:20px}
+body.locked #login{display:flex}
+body.locked #side,body.locked main{display:none!important}
+#lForm{width:100%;max-width:360px;padding:28px}
+#lForm .brand{padding:0 0 4px;font-size:22px}

@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Iniciar Tienda CRM",
+      "type": "shell",
+      "command": "php -S localhost:8000 -t public",
+      "problemMatcher": [],
+      "isBackground": true,
+      "runOptions": { "runOn": "default" }
+    }
+  ]
+}
