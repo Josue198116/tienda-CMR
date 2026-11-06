@@ -26,8 +26,8 @@ tienda-crm/
 2. Revisa `server/config.php` (por defecto: root, sin contraseña, 127.0.0.1:3306).
 3. En la terminal de VS Code: `php -S localhost:8000 -t public`
    (o Terminal → Ejecutar tarea → "Iniciar Tienda CRM").
-4. Abre http://localhost:8000
-   - Con XAMPP también puedes copiar la carpeta a `htdocs` y abrir `http://localhost/tienda-crm/public/`.
+4. Abre https://specification-planner-ips-northwest.trycloudflare.com/tienda-crm/public/
+   - Con XAMPP también puedes copiar la carpeta a `htdocs` y abrir `https://specification-planner-ips-northwest.trycloudflare.com/tienda-crm/public/
 
 La primera carga crea la base `tienda`, las tablas, vistas y procedures, e inserta datos de prueba
 (100 categorías, 100 clientes, 100 usuarios, 150 productos, 300 pedidos, ~700 detalles, ~210 ventas, 200 movimientos).
